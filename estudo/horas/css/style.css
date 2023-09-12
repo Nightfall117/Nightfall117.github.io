@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&family=Roboto&display=swap');
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    color: #ff65ff;
+    font-family: 'Nunito';
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #b1d4f6 0%, #eddffa 100%);
+
+}
+
+#inicial{
+    margin: 10vh;
+    min-height: 80vh;
+    width: 80vw;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff84;
+    backdrop-filter: blur(30px);
+    overflow-y: visible;
+}
