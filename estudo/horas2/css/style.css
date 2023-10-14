@@ -17,7 +17,6 @@ body {
 }
 
 #geral {
-    margin-top: 10vh;
     background-color: #ffffff4d;
     backdrop-filter: blur(30px);
     min-height: 80vh;
@@ -37,7 +36,7 @@ body {
     font-size: 8vw;
     justify-content: center;
     align-items: center;
-    margin: -1em;
+    margin: 5px;
 }
 
 #clima {
@@ -75,6 +74,3 @@ body {
     transform: translate(0, 8%);
 }
 
-@media screen and (max-width: 768px) {
-    
-}
