@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&family=Roboto&display=swap');
+
+body {
+    color: #ff65ff;
+    font-family: 'Nunito';
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 1px solid #ccc;
+    width: 100vw;
+    background-image:
+        linear-gradient(62deg, #b1d4f6 0%, #eddffa 100%);
+    margin: 0;
+}
+
+#geral {
+    background-color: #ffffff4d;
+    backdrop-filter: blur(30px);
+    min-height: 80vh;
+    height: fit-content;
+    width: 80vw;
+    border-radius: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#time {
+    display: flex;
+    height: 400;
+    width: 70vw;
+    font-size: 8vw;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+#clima {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: none;
+    min-height: 150px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 2em;
+}
+
+#description {
+    font-size: 1em;
+}
+
+#temp {
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+    align-items: left;
+    justify-content: space-around;
+}
+
+#icon {
+    height: 4em;
+    transform: translate(0, 8%);
+}
+

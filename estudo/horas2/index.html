@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Horas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/switch.css">
+</head>
+
+<body>
+    <div id="geral">
+        <div class="btn-container" id="botao">
+
+            <label class="switch btn-color-mode-switch">
+                <input value="1" id="color_mode" name="color_mode" type="checkbox">
+                <label class="btn-color-mode-switch-inner" data-off="Hora" data-on="Clima" for="color_mode"></label>
+            </label>
+        </div>
+        <div>
+            <div id="time">
+                <h1><spam id="horario"></spam></h1>
+            </div>
+            <div id="clima">
+                <div>
+                    <p>
+                        Agora faz
+                        <span id="temperature"></span>°C
+                        <br>
+                        Céu
+                        <span id="description"></span>
+                    </p>
+                </div>
+                <div>
+                    <img id="icon">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>
