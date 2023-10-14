@@ -17,6 +17,7 @@ body {
 }
 
 #geral {
+    margin-top: 10vh;
     background-color: #ffffff4d;
     backdrop-filter: blur(30px);
     min-height: 80vh;
