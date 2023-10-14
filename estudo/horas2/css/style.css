@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 120vh;
+    min-height: 100vh;
     border: 1px solid #ccc;
     width: 100vw;
     background-image:
@@ -32,12 +32,12 @@ body {
 
 #time {
     display: flex;
-    height: 400;
+    height: fit-content;
     width: 70vw;
     font-size: 8vw;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin: -1em;
 }
 
 #clima {
@@ -75,3 +75,6 @@ body {
     transform: translate(0, 8%);
 }
 
+@media screen and (max-width: 768px) {
+    
+}
