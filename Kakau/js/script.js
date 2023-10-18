@@ -5,7 +5,7 @@ const observer = new IntersectionObserver((entries)=>{
         console.log(entry)
         if (entry.isIntersecting){
             entry.target.classList.add('show')
-            setTimeout(entry.target.querySelector('.midia').play(),2000)
+            setTimeout(entry.target.querySelector('.midia').play(),1500)
         }else {entry.target.classList.remove('show')
     }
     })
