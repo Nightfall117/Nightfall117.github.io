@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&family=Roboto&display=swap');
+body{
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:
+    linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    margin: 0;
+    color: #f880f8;
+    font-size: 25px;
+    font-family: 'Nunito';
+}
+#inicial{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#inicial p{
+    font-size: 12px;
+}
+.hidden{
+    height: 100vh;
+    opacity: 0;
+    margin: 10vh;
+}
+.show{
+    opacity: 1;
+    transition: all 1.5s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.moldura{
+    height: fit-content;
+    width: 80vw;
+    border-radius: 30px;
+    background-color: #e4e4e436;
+    backdrop-filter: blur(30px) saturate(110%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff20;
+    box-shadow:  20px 20px 100px #b6b6b631,
+             -20px -20px 100px #7979793a;
+    
+}
+.moldura div{
+    margin: 2vw;
+}
+
+#imagem{
+    width: 100%;
+    border-radius: 15px;
+}
+#amar{
+    height: 60vh;
+    border-radius: 15px;
+}
+#cat{
+    width: 60vw;
+    border-radius: 15px;
+}
+@media only screen and (max-height: 555px) {
+    body{
+        font-size: 5vh;
+    }
+    #inicial p{
+        font-size: 2.5vh;
+    }
+    #imagem{
+        margin-top: -1em;
+        height: 40vh;
+    }
+    #cat{
+        height: 40vh;
+    }
+}
