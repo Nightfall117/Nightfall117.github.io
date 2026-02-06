@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat";
+    font-size: clamp(0.8rem, 3vw, 4rem);
+}
+
+h1{
+    font-weight: 680;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h3{
+    font-weight: 650;
+}
+#presentation{
+    min-height: 100vh;
+    width: fit-content;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+#subtitulo{
+    font-size: 80%;
+    font-weight: 450;
+    margin-top: -.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: end;
+}
+#projects{
+    min-height: 100vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3fffff;
+}
+.projeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
+    height: 400px;
+    min-width: 250px;
+    border-radius: 30px;
+}
