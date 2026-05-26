@@ -1,11 +1,11 @@
 //Horas
 function atualizarHorario() {
     var data = new Date();
-    var horario = data.toLocaleTimeString( hour12: false);
+    var horario = data.toLocaleTimeString();
     document.getElementById("horario").innerHTML = horario;
 }
 
-setInterval(atualizarHorario, 500);
+setInterval(atualizarHorario, 1000);
 
 // Clima
 let lat
